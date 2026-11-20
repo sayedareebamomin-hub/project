@@ -1,0 +1,443 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Areeba Sayed | My Portfolio</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #faf7f3;
+            color: #39302c;
+        }
+
+        /* Navigation */
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 22px 8%;
+            background-color: #fff;
+            position: sticky;
+            top: 0;
+        }
+
+        nav h2 {
+            color: #806456;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #39302c;
+            margin-left: 22px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #a77c67;
+        }
+
+        /* Home */
+
+        #home {
+            min-height: 450px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: #eee3da;
+            padding: 80px 20px;
+        }
+
+        #home h1 {
+            font-size: 48px;
+            color: #725448;
+            margin-bottom: 15px;
+        }
+
+        #home h3 {
+            font-size: 22px;
+            font-weight: normal;
+            margin-bottom: 15px;
+        }
+
+        #home p {
+            color: #665b54;
+            line-height: 1.7;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #725448;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            margin-top: 25px;
+        }
+
+        .btn:hover {
+            background-color: #513b32;
+        }
+
+        /* General Sections */
+
+        section {
+            padding: 65px 10%;
+            scroll-margin-top: 65px;
+        }
+
+        .section-title {
+            text-align: center;
+            color: #725448;
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+
+        .section-text {
+            max-width: 750px;
+            margin: auto;
+            text-align: center;
+            line-height: 1.8;
+        }
+
+        /* About */
+
+        #about {
+            background-color: white;
+        }
+
+        /* Skills */
+
+        #skills {
+            background-color: #faf7f3;
+        }
+
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 18px;
+        }
+
+        .skill {
+            background-color: white;
+            padding: 22px 35px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px #ddd;
+            color: #725448;
+            font-weight: bold;
+        }
+
+        /* Projects */
+
+        #projects {
+            background-color: white;
+        }
+
+        .projects-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .project-card {
+            background-color: #faf7f3;
+            width: 280px;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px #ddd;
+        }
+
+        .project-card h3 {
+            color: #725448;
+            margin-bottom: 15px;
+        }
+
+        .project-card p {
+            line-height: 1.7;
+            font-size: 14px;
+        }
+
+        /* Education */
+
+        #education {
+            background-color: #eee3da;
+        }
+
+        .education-box {
+            background-color: white;
+            max-width: 500px;
+            margin: auto;
+            padding: 25px;
+            border-radius: 8px;
+            line-height: 2;
+            text-align: center;
+        }
+
+        /* Contact */
+
+        #contact {
+            background-color: white;
+            text-align: center;
+        }
+
+        /* Footer */
+
+        footer {
+            background-color: #725448;
+            color: white;
+            text-align: center;
+            padding: 22px;
+        }
+
+        /* Mobile Responsive */
+
+        @media (max-width: 650px) {
+
+            nav {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 5px;
+                display: inline-block;
+            }
+
+            #home h1 {
+                font-size: 34px;
+            }
+
+            #home h3 {
+                font-size: 18px;
+            }
+
+            section {
+                padding: 45px 6%;
+            }
+
+            .project-card {
+                width: 100%;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav>
+
+        <h2>Areeba.</h2>
+
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Home Section -->
+
+    <section id="home">
+
+        <h1>Hello, I'm Areeba!</h1>
+
+        <h3>Information Technology Student</h3>
+
+        <p>
+            Exploring technology, learning to code
+            and creating things for the web.
+        </p>
+
+        <a href="#projects" class="btn">
+            Explore My Work
+        </a>
+
+    </section>
+
+
+    <!-- About Section -->
+
+    <section id="about">
+
+        <h2 class="section-title">About Me</h2>
+
+        <p class="section-text">
+
+            Hello! I'm Areeba Sayed, a first-year
+            B.Sc. Information Technology student
+            at Jai Hind College.
+
+            I'm interested in technology, programming
+            and web development. I enjoy learning
+            new concepts, developing my technical
+            skills and exploring creative ways
+            to solve problems.
+
+        </p>
+
+    </section>
+
+
+    <!-- Skills Section -->
+
+    <section id="skills">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill">HTML</div>
+
+            <div class="skill">CSS</div>
+
+            <div class="skill">Python</div>
+
+            <div class="skill">C++</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+
+    <section id="projects">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <h3>Personal Portfolio Website</h3>
+
+                <p>
+                    A personal portfolio website
+                    created using HTML and CSS
+                    to showcase my introduction,
+                    skills and projects.
+                </p>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>Resume Webpage</h3>
+
+                <p>
+                    A webpage created using HTML
+                    and CSS to display personal
+                    information and educational details.
+                </p>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h3>Future Projects</h3>
+
+                <p>
+                    I am continuously learning
+                    programming and web development
+                    and look forward to creating
+                    more projects.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Education Section -->
+
+    <section id="education">
+
+        <h2 class="section-title">Education</h2>
+
+        <div class="education-box">
+
+            <h3>B.Sc. Information Technology</h3>
+
+            <p>Jai Hind College</p>
+
+            <p>2026 – Present</p>
+
+            <br>
+
+            <h3>Higher Secondary Education</h3>
+
+            <p>Jai Hind College</p>
+
+            <p>Completed in 2026</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+
+    <section id="contact">
+
+        <h2 class="section-title">Get In Touch</h2>
+
+        <p class="section-text">
+
+            Thank you for visiting my portfolio!
+            Feel free to connect with me.
+
+        </p>
+
+        <a href="mailto:sayedareebamomin@gmail.com"
+           class="btn">
+
+            Contact Me
+
+        </a>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>© 2026 Areeba Sayed | Personal Portfolio</p>
+
+    </footer>
+
+
+</body>
+
+</html>
