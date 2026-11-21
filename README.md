@@ -10,10 +10,16 @@ Welcome to my personal portfolio website!
 - HTML
 - CSS
 
-- <div class="project-card">
-    <h3>My Webpage Project</h3>
-    <p>A webpage created using HTML and CSS.</p>
+
+<div class="project-card">
+    <h3>My Webpage</h3>
+
+    <p>
+        A webpage designed using HTML and CSS.
+    </p>
+
     <a href="webpage.html" target="_blank">
-        View Project
+        View Project →
     </a>
 </div>
+
